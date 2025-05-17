@@ -1,0 +1,29 @@
+name: ail_test_app
+description: A Flutter app for Army Institute of Law test
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_gemini: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icons/ail_logo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
